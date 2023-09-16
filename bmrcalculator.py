@@ -91,14 +91,6 @@ if st.button("Calculate"):
     response = bmrCalculate()
     st.write(f"**Assistant:** {response}")
 
-
 st.markdown("---")
+st.write("Developed by - Mohd Anas Ansari")
 
-footer_content = """
-<footer style="text-align: center; margin-top: 20px;">
-    <p>Made by - Mohd Anas Ansari</p>
-</footer>
-"""
-
-# Render the footer using markdown
-st.markdown(footer_content, unsafe_allow_html=True)
